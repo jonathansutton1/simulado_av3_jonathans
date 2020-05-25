@@ -37,12 +37,16 @@ architecture arch of Q1_ControlUnit is
 
 begin
 
+  --=================================--
   -- implementar somente o sinal muxY
-  muxY <= instruction(17) and (not instruction(14));
+  --=================================--
+
+  --muxY <= ????????????;
 
 
+  --=================================--
   -- ja esta pronto, nao precisa mexer!
--- Signals
+  --=================================--
   cType <= instruction(17);
   r0    <= instruction(13);
   r1    <= instruction(14);
