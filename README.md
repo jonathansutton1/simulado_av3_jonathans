@@ -112,7 +112,7 @@ Por exemplo, assuma o estado inicial da CPU com o valor a seguir no reg `%D`:
 
 | REG  | Valor binário      | Valor Decimal     |
 | ---  | ---                | -----             |
-| `%D` | `1000000000000000` | `32767 ou -32768` |
+| `%D` | `1000000000000000` | `32768 ou -32768` |
 
 E o que acontece se executamos uma operação de jump greater (`jg`) em `%D`?
 Como CPU sabe se os valores salvos em `%D` são maiores ou menores que ZERO?
