@@ -65,13 +65,13 @@ architecture arch of Q1_CPU is
       );
   end component;
 
-  component ControlUnit is
+  component Q1_ControlUnit is
     port(
       instruction                 : in STD_LOGIC_VECTOR(17 downto 0);
       zr,ng                       : in STD_LOGIC;
       muxALUI_A                   : out STD_LOGIC;
       muxAM                       : out STD_LOGIC;
-      MuxY                        : out STD_LOGIC; -- nova saída
+      muxY                        : out STD_LOGIC; -- nova saída
       zx, nx, zy, ny, f, no       : out STD_LOGIC;
       loadA, loadD, loadM, loadPC : out STD_LOGIC
       );
@@ -105,7 +105,7 @@ architecture arch of Q1_CPU is
 
 begin
 
-  CU: ControlUnit port map ( instruction  => instruction,
+  CU: Q1_ControlUnit port map ( instruction  => instruction,
                              zr           => c_zr,
                              ng           => c_ng,
                              muxALUI_A    => c_muxALUI_A,
