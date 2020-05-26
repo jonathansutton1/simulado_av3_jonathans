@@ -41,6 +41,12 @@ Usar como base para o estudo:
 
 ## PARTE 2 - Prática
 
+**Atualizar o Z01 Tools!**
+
+```bash
+./updateZ01tools.sh
+```
+
 Duas questões prática que envolvem modificar o HW da entrega F. A avaliação é auto contida, ou seja, fornecemos tudo que é necessário para realizar a mesma.
 
 As questões de hardware (`.vhd`) devem ser implementadas nos arquivos localizados na pasta `src/rtl`. Para executar o teste  de HW basta executar o script:
@@ -56,10 +62,10 @@ As questões de hardware (`.vhd`) devem ser implementadas nos arquivos localizad
 
 ### 1. ( 5 HW, 0 SW) novo mux
 
-| Questão | Arquivo              | pts  |
-|---------|----------------------|------|
-| a      | `Q1_ControlUnit.vhd` | 5 Hw |
-| b      | `Q1_CPU.vhd`         | 5 Hw |
+| Questão | Arquivo           | pts  |
+|---------|-------------------|------|
+| 1a      | `Q1_CPU.vhd`         | 2 Hw |
+| 1b      | `Q1_ControlUnit.vhd` | 3 Hw |
 
 Vamos modificar o HW adicionando um novo mux (`muxY`) para permitir que a saída do reg `%D` entre na entrada `Y` da ULA. Permitindo operações do tipo:
 
@@ -100,9 +106,9 @@ Edite o arquivo `Q1_CPU.vhd` adicionando o novo mux e faça o mapeamento para o 
 
 ### 2. (10 HW, 0 SW) jump
 
-| Questão | Arquivo              | pts  |
-|---------|----------------------|------|
-| 2       | `Q2_ControlUnit.vhd` | 5 Hw |
+| Questão | Arquivo              | pts   |
+|---------|----------------------|-------|
+| 2a      | `Q2_ControlUnit.vhd` | 10 Hw |
 
 O instruction set do nosso Z01.1 não diferencia operações entre números do tipo sem
 sinalização (unsigned) e com sinalização (complemento de dois, signed). Isso pode causar
