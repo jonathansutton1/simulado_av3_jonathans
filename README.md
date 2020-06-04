@@ -41,6 +41,12 @@ Usar como base para o estudo:
 
 ## PARTE 2 - Prática
 
+**Atualizar o Z01 Tools!**
+
+```bash
+./updateZ01tools.sh
+```
+
 Duas questões prática que envolvem modificar o HW da entrega F. A avaliação é auto contida, ou seja, fornecemos tudo que é necessário para realizar a mesma.
 
 As questões de hardware (`.vhd`) devem ser implementadas nos arquivos localizados na pasta `src/rtl`. Para executar o teste  de HW basta executar o script:

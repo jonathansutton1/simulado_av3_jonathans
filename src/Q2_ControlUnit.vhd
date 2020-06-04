@@ -33,8 +33,8 @@ begin
   loadPC <= jg and instruction(17) and instruction(0);
 
   -- implementar somente o loadD para o caso do jgu e jgs
-  jg <= '1' when instruction(16) = '0' and ng = '0' and zr = '0' else
-        '1' when instruction(16) = '1' and zr = '0' else
+  jg <= '1' when instruction(16) = '1' and ng = '0' and zr = '0' else
+        '1' when instruction(16) = '0' and zr = '0' else
         '0';
 
 end architecture;

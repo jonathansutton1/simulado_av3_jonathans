@@ -67,7 +67,7 @@ begin
       wait for 20 ps;
 
       -- add %d, %d, %a
-      instruction <= "1" & "001" & '0' & "000010" & "0001" & "000";
+      instruction <= "10" & "01" & '0' & "000010" & "0001" & "000";
       wait until clk = '1';
       wait for 20 ps;
 

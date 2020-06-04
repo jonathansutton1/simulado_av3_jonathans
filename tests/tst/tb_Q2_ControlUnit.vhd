@@ -57,7 +57,7 @@ begin
     instruction <= "11" & "000" & "000010" & "0001" & "001";
     zr <= '0';  ng <= '1';
     wait until clk = '1';
-    assert(loadPC  = '1')
+    assert(loadPC  = '0')
       report "falha teste 2" severity error;
 
     instruction <= "11" & "000" & "000010" & "0001" & "001";

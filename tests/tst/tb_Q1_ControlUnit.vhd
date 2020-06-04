@@ -53,12 +53,12 @@ begin
     instruction <= "10" & "010" & "000010" & "0001" & "000";
     zr <= '0';  ng <= '0';
     wait until clk = '1';
-    assert(muxY = '0')
+    assert(muxY = '1')
     report " **Falha** Teste 1" severity error;
 
     instruction <= "10" & "000" & "000010" & "0001" & "000";
     wait until clk = '1';
-    assert(muxY = '1')
+    assert(muxY = '0')
       report " **Falha** Teste 2" severity error;
 
     test_runner_cleanup(runner); -- Simulation ends here
