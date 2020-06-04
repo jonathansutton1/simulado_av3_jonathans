@@ -8,6 +8,6 @@
 #                                    #
 ######################################
 
-#Q1_ControlUnit.vhd
-#Q1_CPU.vhd
+Q1_ControlUnit.vhd
+Q1_CPU.vhd
 Q2_ControlUnit.vhd

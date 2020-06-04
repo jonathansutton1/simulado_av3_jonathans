@@ -52,7 +52,7 @@ Duas questões prática que envolvem modificar o HW da entrega F. A avaliação 
 As questões de hardware (`.vhd`) devem ser implementadas nos arquivos localizados na pasta `src/rtl`. Para executar o teste  de HW basta executar o script:
 
 ``` bash
-./testeAV2.py
+./testeAV3.py
 ```
 
 > Vocês devem editar o arquivo `tests/config.txt` para inserir o módulo no teste.
