@@ -17,7 +17,7 @@ class tstHW(object):
     def __init__(self):
         self.pwd = os.path.dirname(os.path.abspath(__file__))
         self.rtl = os.path.join(self.pwd, 'src/')
-        self.tst = os.path.join(self.pwd, 'tests/')
+        self.tst = os.path.join(self.pwd, '')
         self.log = os.path.join(TOOL_PATH,'log','logS.xml')
         self.work = vhdlScript(self.log)
 
