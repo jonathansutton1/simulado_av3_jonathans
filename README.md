@@ -32,15 +32,6 @@ Questões teóricas de:
     - linguagem de máquina
     - Arquitetura do Z01
 
-Usar como base para o estudo:
-
-- Linguagem de máquina: https://docs.google.com/forms/d/e/1FAIpQLSc17TIBUEheKQfdzAwe6rvxslZP6cC1WtrqvMdWcesGLQWhUQ/viewform
-- lab 15: https://insper.github.io/Z01.1/cpu-lab-1/
-- Exercício CPU - 2: https://insper.github.io/Z01.1/Exercicio-CPU-2/
-- Exercício CPU - 1: https://insper.github.io/Z01.1/Exercicio-CPU-1/
-
-## PARTE 2 - Prática
-
 **Atualizar o Z01 Tools!**
 
 ```bash
